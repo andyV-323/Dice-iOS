@@ -1,0 +1,108 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Derived data
+DerivedData/
+
+## Compilation
+*.o
+*.d
+
+## Products
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Logs
+*.log
+*.xcactivitylog
+
+## Others
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+!Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Swift Package Manager
+.build/
+
+# Package.resolved files should be checked into source control
+# from Swift 5.3 onwards
+# *.resolved
+!**/*.resolved
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcworkspace
+*.xcodeproj
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore archived builds
+*.ipa
+*.dSYM.zip
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcworkspace
+*.xcodeproj
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore archived builds
+*.ipa
+*.dSYM.zip
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
