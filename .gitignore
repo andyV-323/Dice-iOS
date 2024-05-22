@@ -5,6 +5,7 @@
 ## User settings
 xcuserdata/
 
+<<<<<<< HEAD
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
 *.xccheckout
@@ -26,10 +27,22 @@ DerivedData/
 *.hmap
 
 ## App packaging
+=======
+## Derived data
+DerivedData/
+
+## Compilation
+*.o
+*.d
+
+## Products
+*.app
+>>>>>>> master
 *.ipa
 *.dSYM.zip
 *.dSYM
 
+<<<<<<< HEAD
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
@@ -88,3 +101,93 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+=======
+## Logs
+*.log
+*.xcactivitylog
+
+## Others
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+!Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Swift Package Manager
+.build/
+
+# Package.resolved files should be checked into source control
+# from Swift 5.3 onwards
+# *.resolved
+!**/*.resolved
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcworkspace
+*.xcodeproj
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore archived builds
+*.ipa
+*.dSYM.zip
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcworkspace
+*.xcodeproj
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore archived builds
+*.ipa
+*.dSYM.zip
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+>>>>>>> master
